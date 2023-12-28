@@ -1,0 +1,367 @@
+$date
+	Fri Dec 29 01:39:33 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module LED_Chasing_tb $end
+$var wire 1 ! Result $end
+$var wire 1 " LED4 $end
+$var wire 1 # LED3 $end
+$var wire 1 $ LED2 $end
+$var wire 1 % LED1 $end
+$var reg 1 & buttonPressed $end
+$var reg 1 ' clk $end
+$var reg 1 ( reset $end
+$var reg 4 ) stopValue [3:0] $end
+$scope module Game $end
+$var wire 1 ' clk $end
+$var wire 1 ( reset $end
+$var wire 1 & stopButton $end
+$var wire 4 * stopLED [3:0] $end
+$var wire 1 + EndVal $end
+$var reg 1 % LED1 $end
+$var reg 1 $ LED2 $end
+$var reg 1 # LED3 $end
+$var reg 1 " LED4 $end
+$var reg 4 , LEDOn [3:0] $end
+$var reg 1 ! Result $end
+$scope module stopButtonCtrl $end
+$var wire 4 - LEDvalue [3:0] $end
+$var wire 1 & button $end
+$var wire 1 ' clk $end
+$var wire 1 ( reset $end
+$var wire 4 . stopLED [3:0] $end
+$var reg 1 + WinOrLoss $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1000 .
+b0 -
+b0 ,
+0+
+b1000 *
+b1000 )
+1(
+1'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+0'
+#10
+1'
+#15
+0'
+#20
+1'
+#25
+0'
+#30
+1'
+#35
+0'
+#40
+1'
+#45
+0'
+#50
+1'
+#55
+0'
+#60
+1'
+#65
+0'
+#70
+1'
+#75
+0'
+#80
+1'
+#85
+0'
+#90
+1'
+#95
+0'
+#100
+b1000 ,
+b1000 -
+1%
+1'
+0(
+#105
+0'
+#110
+b100 ,
+b100 -
+1$
+0%
+1'
+#115
+0'
+#120
+b10 ,
+b10 -
+1#
+0$
+1'
+#125
+0'
+#130
+b1 ,
+b1 -
+1"
+0#
+1'
+#135
+0'
+#140
+b1000 ,
+b1000 -
+1%
+0"
+1'
+#145
+0'
+#150
+b100 ,
+b100 -
+1$
+0%
+1'
+#155
+0'
+#160
+b10 ,
+b10 -
+1#
+0$
+1'
+#165
+0'
+#170
+b1 ,
+b1 -
+1"
+0#
+1'
+#175
+0'
+#180
+b1000 ,
+b1000 -
+1%
+0"
+1'
+#185
+0'
+#190
+b100 ,
+b100 -
+1$
+0%
+1'
+#195
+0'
+#200
+b10 ,
+b10 -
+1#
+0$
+1'
+#205
+0'
+#210
+b1 ,
+b1 -
+1"
+0#
+1'
+#215
+0'
+#220
+b1000 ,
+b1000 -
+1%
+0"
+1'
+#221
+1!
+1+
+1&
+#225
+0'
+#230
+b100 ,
+b100 -
+1$
+0%
+1'
+#235
+0'
+#240
+b10 ,
+b10 -
+1#
+0$
+1'
+#245
+0'
+#250
+b1 ,
+b1 -
+1"
+0#
+1'
+#255
+0'
+#260
+b1000 ,
+b1000 -
+1%
+0"
+1'
+#265
+0'
+#270
+b100 ,
+b100 -
+1$
+0%
+1'
+#275
+0'
+#280
+b10 ,
+b10 -
+1#
+0$
+1'
+#285
+0'
+#290
+b1 ,
+b1 -
+1"
+0#
+1'
+#295
+0'
+#300
+b1000 ,
+b1000 -
+1%
+0"
+1'
+#305
+0'
+#310
+b100 ,
+b100 -
+1$
+0%
+1'
+#315
+0'
+#320
+b10 ,
+b10 -
+1#
+0$
+1'
+#325
+0'
+#330
+b1 ,
+b1 -
+1"
+0#
+1'
+#335
+0'
+#340
+b1000 ,
+b1000 -
+1%
+0"
+1'
+#345
+0'
+#350
+b100 ,
+b100 -
+1$
+0%
+1'
+#355
+0'
+#360
+b10 ,
+b10 -
+1#
+0$
+1'
+#365
+0'
+#370
+b1 ,
+b1 -
+1"
+0#
+1'
+#375
+0'
+#380
+b1000 ,
+b1000 -
+1%
+0"
+1'
+#385
+0'
+#390
+b100 ,
+b100 -
+1$
+0%
+1'
+#395
+0'
+#400
+b10 ,
+b10 -
+1#
+0$
+1'
+#405
+0'
+#410
+b1 ,
+b1 -
+1"
+0#
+1'
+#415
+0'
+#420
+b1000 ,
+b1000 -
+1%
+0"
+1'
+#421
